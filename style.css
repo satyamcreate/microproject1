@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+.div1 {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    background-color: blueviolet;
+    padding: 10px 0; 
+    position: fixed;
+}
+
+.icon {
+    font-size: 50px;
+    margin-right: 200px; 
+    font-family: 'delius' , 'Unicase' ; 
+    color: white;
+
+}
+
+.div2 {
+    display: flex;
+    justify-content:space-between;
+    font-size: 30px;  
+    align-items: center;
+    color:white ;
+    padding: 1px;
+    margin-left: 12vw;
+    gap: 120px;
+
+}
+
+.search-bar {
+    margin-left: auto; 
+    padding: 5px;
+    font-size: 18px;
+    border: 5px solid #ccc;
+    border-radius: 50px;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    display: block;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.profile-image{
+
+    width: 350px;
+    height: 400px;
+    margin: 200px ;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: 150px;
+    
+}
+
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1px;
+    margin-right: 150px;
+    
+    
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+     margin-bottom: 1em;
+}
+
+.Textarea {
+    width: 1110px;
+    height: 400px;
+    padding: 10px;
+    font-size: 25px;
+    border: 3px solid #FFFFFF;
+    box-shadow:3px 5px 27px 0px #00000040 inset;
+    border-radius: 10px;
+    background-color: #E5D8FF;
+    margin-left: 50px;
+    text-align:left ;
+    vertical-align: top;
+    overflow-y: auto; 
+    white-space: pre-wrap; 
+    outline: none;
+    color: grey;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: -1em;
+    padding-top: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.container{
+    width: 230px;
+    height: 85px;
+    margin-top: -5em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding-top: 15px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+
+.card > .container:nth-of-type(1) {
+    background: #929DFF;
+}
+
+.card > .container:nth-of-type(2) {
+    background: #734CF2;
+}
+
+.card > .container:nth-of-type(3) {
+    background: #D288FF;
+}
+
+.card > .container:nth-of-type(4) {
+    background: #000000;
+}
+
+.container .number {
+    font-size: 24px; 
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.part3{
+    background: #483EFF;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 90px 190px 60px ;
+    border-radius: 10px;
+    height: 600px;
+
+}
+.box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    width: 230px;
+    height: 90px;
+    background: #BCE0F6;
+    box-shadow: 0px 9px 31px 0px #00000066;
+    border-radius: 20px;
+    text-align:center;
+    color: #000000 ;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spacer{
+    height: 20px;
+}
+
+.part3 .box:nth-of-type(1) {
+    box-shadow: 0px 6px 35px 0px #00000063;
+
+}
+
+.part3 .box:nth-of-type(2),
+.part3 .box:nth-of-type(3) {
+    border: 2px solid white;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.info-box{
+    
+    height: 550px;
+    width: 1100px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: 50px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px ;
+    justify-content:  flex-start ;
+    color: #333333;
+    flex-shrink: 0; /* Prevent shrinking */
+    flex-grow: 0; /* Prevent growing */
+    position: relative; /* Relative positioning for the absolute button */
+    text-align: left;
+    padding-left: 20px;
+}
+
+.info-box p {
+    margin: 10px 50px 35px 50px; /* Space between lines */
+}
+
+.info-title {
+    font-size: 30px; /* Size for title */
+    padding-left: -5em; /* Space between title and other info */
+}
+
+.info-button {
+    position: absolute;
+    bottom: 20px; /* Adjust distance from bottom */
+    right: 20px; /* Adjust distance from right */
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: black; /* Button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.frame {
+    position:sticky ;
+    float: right;
+    right: 0;
+    top: 250px; /* Adjust as needed for vertical position */
+    transform: translateY(-50%); /* Center the icons vertically */
+    padding: -10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between icons if there are multiple */
+}
+
+.frame img {
+    width: 80px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    cursor: pointer;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 20px; /* Adjust as needed for spacing from bottom */
+    right: 70px; /* Adjust as needed for spacing from right */
+    z-index: 0; /* Ensure it appears above other elements */
+}
+
+.fixed img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    cursor: pointer;
+}
