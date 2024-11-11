@@ -238,30 +238,30 @@ nav {
     padding: 60px 60px ;
     justify-content:  flex-start ;
     color: #333333;
-    flex-shrink: 0; /* Prevent shrinking */
-    flex-grow: 0; /* Prevent growing */
-    position: relative; /* Relative positioning for the absolute button */
+    flex-shrink: 0;    
+    flex-grow: 0;    
+    position: relative;    
     text-align: left;
     padding-left: 20px;
 }
 
 .info-box p {
-    margin: 10px 50px 35px 50px; /* Space between lines */
+    margin: 10px 50px 35px 50px;    
 }
 
 .info-title {
-    font-size: 30px; /* Size for title */
-    padding-left: -5em; /* Space between title and other info */
+    font-size: 30px;    
+    padding-left: -5em;    
 }
 
 .info-button {
     position: absolute;
-    bottom: 20px; /* Adjust distance from bottom */
-    right: 20px; /* Adjust distance from right */
+    bottom: 20px;    
+    right: 20px;    
     padding: 10px 15px;
     font-size: 16px;
     color: white;
-    background-color: black; /* Button color */
+    background-color: black;    
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -271,30 +271,30 @@ nav {
     position:sticky ;
     float: right;
     right: 0;
-    top: 250px; /* Adjust as needed for vertical position */
-    transform: translateY(-50%); /* Center the icons vertically */
+    top: 250px;    
+    transform: translateY(-50%);    
     padding: -10em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Space between icons if there are multiple */
+    gap: 10px;    
 }
 
 .frame img {
-    width: 80px; /* Adjust size as needed */
-    height: 200px; /* Adjust size as needed */
+    width: 80px;    
+    height: 200px;    
     cursor: pointer;
 }
 
 .fixed{
     position: fixed;
-    bottom: 20px; /* Adjust as needed for spacing from bottom */
-    right: 70px; /* Adjust as needed for spacing from right */
-    z-index: 0; /* Ensure it appears above other elements */
+    bottom: 20px;    
+    right: 70px;    
+    z-index: 0;    
 }
 
 .fixed img {
-    width: 150px; /* Adjust size as needed */
-    height: 150px; /* Adjust size as needed */
+    width: 150px;    
+    height: 150px;    
     cursor: pointer;
 }
